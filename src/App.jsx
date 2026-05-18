@@ -4,7 +4,9 @@ import './App.css'
 
 function App() {
   return <>
-  <InputCard name='Hello'/>
+  <InputCard type='Income'/>
+  <InputCard type='Expense'/>
+  <InputCard type='Current Savings'/>
   </>
 }
 

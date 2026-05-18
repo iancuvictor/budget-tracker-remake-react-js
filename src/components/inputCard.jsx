@@ -1,7 +1,14 @@
-function InputCard({name = 'default name'}){
-    return <>
-    <h1>{name}</h1>
+import { InputField } from '../components';
+
+function InputCard({ type }) {
+  return (
+    <>
+      <h1>{type}</h1>
+      <ul>
+        <InputField/>
+      </ul>
     </>
+  );
 }
 
 export default InputCard;
